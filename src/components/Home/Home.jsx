@@ -2,6 +2,8 @@ import React from 'react'
 import TrendCard from './TrendCard'
 import { AiOutlineStar   } from "react-icons/ai";
 import TrendCardSm from './TrendCardSm';
+import { Link } from 'react-router-dom'; 
+import { IoIosArrowForward } from "react-icons/io";
 
 const Home = () => {
   return (
@@ -12,7 +14,12 @@ const Home = () => {
         <TrendCard />
       </div>
       <div className='top-rated'>
-        <h1 className='top-rated-h'><span>Top Rated</span><AiOutlineStar className='star'/></h1>
+        <div className='flex flex-row justify-between items-center'>
+          <h1 className='top-rated-h'><span>Top Rated</span><AiOutlineStar className='star'/></h1>
+          <Link to='/popular'>
+          <IoIosArrowForward className='forward-arrow'/>
+          </Link>
+        </div>
         <div className='grid grid-cols-4 gap-2 gap-y-3 w-full'>
         <TrendCardSm />
         <TrendCardSm />

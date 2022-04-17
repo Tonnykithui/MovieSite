@@ -21,6 +21,9 @@ const TrendCardSm = () => {
                 </div>
             </div>
         </div>
+        <div className='movie-info'>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda aliquam odit exercitationem dolore maiores atque itaque quibusdam perferendis ad fugit! Excepturi esse explicabo veniam pariatur a delectus nostrum totam minus autem nihil. Illo ipsam alias minus consequuntur non expedita velit inventore voluptate magni ipsum. Eveniet cum earum placeat voluptatum odio?</p>
+        </div>
     </div>
   )
 }

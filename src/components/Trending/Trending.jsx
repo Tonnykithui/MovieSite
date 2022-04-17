@@ -1,8 +1,18 @@
 import React from 'react'
+import TrendingC from './TrendingC'
 
 const Trending = () => {
   return (
-    <div>Trending</div>
+    <div className='trending-page'>
+      <div className="trend">
+        <div className="trend-major">
+          <TrendingC />
+        </div>
+        <div className="trend-minors">
+
+        </div>
+      </div>
+    </div>
   )
 }
 
